@@ -1,0 +1,14 @@
+# Ignore all files beginning with a dot (.)
+.*
+# except for git files
+!.gitattributes
+!.gitignore
+!.editorconfig
+!.spelling
+!.github/
+!.vscode/
+!.travis.yml
+
+#Ignore data files
+*.txt
+*.json
