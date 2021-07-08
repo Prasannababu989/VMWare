@@ -1,0 +1,76 @@
+AlarmName,AlarmAction,CoreSystemsAction,Severity,MidasPolicyCondition
+Storage DRS recommendation,SendEmail,SendEmail,Minor,
+alarm.VdcsHealthAlarm,SendEmail,SendEmail,Minor,
+Appliance Management Health Alarm,SendSNMP,SendEmail,Minor,
+Cannot connect to storage,SendSNMP,SendSNMP,Major,"Cannot connect to storage (non-normal), Cannot connect to storage (ACK)"
+Cannot find vSphere HA master agent,SendSNMP,SendSNMP,Major,"Cannot find vSphere HA master agent (minor), Cannot find vSphere HA master agent (ACK)  "
+Content Library Service Health Alarm,SendSNMP,SendEmail,Info,
+Data Service Health Alarm,SendSNMP,SendEmail,Info,
+Datastore cluster is out of space,SendSNMP,SendSNMP,Major,"Datastore cluster is out of space (Warning/Minor), Datastore cluster is out of space (ACK)"
+Datastore compliance alarm,SendSNMP,SendSNMP,NA,Datastore compliance alarm (minor) 
+Datastore usage on disk,SendSNMP,SendSNMP,Major,"Datastore usage on disk (non-normal), Datastore usage on disk (ACK)"
+Datastore usage on disk,SendEmail,SendEmail,Major,
+ESX Agent Manager Health Alarm,SendSNMP,SendSNMP,Info,
+Exit standby error,SendEmail,SendEmail,Minor,
+Expired host license,SendEmail,SendEmail,Info,
+Expired vCenter Server license,SendSNMP,SendEmail,Minor,
+Expired vCenter Server license,SendEmail,SendSNMP,Minor,
+Health status changed alarm,SendSNMP,SendSNMP,Major,"Health status changed alarm (non-normal), Health status changed alarm (ACK)"
+Host Baseboard Management Controller status,SendSNMP,SendEmail,Info,
+Host battery status,SendEmail,SendEmail,Info,
+Host connection and power state,SendSNMP,SendSNMP,Major,"Host connection and power state (non-normal), Host connection and power state (ACK)"
+Host connection and power state,SendEmail,SendEmail,Major,
+Host connection failure,SendSNMP,SendSNMP,Major,"Host connection failure (non-normal), Host connection failure (ACK)"
+Host CPU usage,SendEmail,SendEmail,Info,
+Host error,SendEmail,SendEmail,Major,
+Host error,SendSNMP,SendSNMP,Info,
+Host hardware fan status,SendSNMP,SendEmail,Minor,
+Host hardware power status,SendSNMP,SendEmail,Minor,
+Host hardware sensor state,SendSNMP,SendEmail,Minor,
+Host hardware system board status,SendSNMP,SendEmail,Minor,
+Host hardware temperature status,SendSNMP,SendEmail,Minor,
+Host hardware voltage,SendSNMP,SendEmail,Minor,
+Host IPMI System Event Log status,SendSNMP,SendSNMP,Minor,
+Host IPMI System Event Log status,SendEmail,SendEmail,Minor,
+Host memory status,SendEmail,SendEmail,Info,
+Host memory usage,SendEmail,SendEmail,Info,
+Host processor status,SendEmail,SendEmail,Info,
+Identity Health Alarm,SendSNMP,SendEmail,Info,
+Insufficient vSphere HA failover resources,SendSNMP,SendSNMP,Major,Insufficient vSphere HA failover resources (minor)
+License error,SendSNMP,SendEmail,Info,
+License error,SendEmail,SendEmail,Minor,
+License inventory monitoring,SendEmail,SendEmail,Minor,
+License inventory monitoring,SendSNMP,SendEmail,Info,
+License user threshold monitoring,SendEmail,SendEmail,Minor,
+Message Bus Config Health Alarm,SendEmail,SendEmail,Info,
+Message Bus Config Health Alarm,SendSNMP,SendSNMP,Info,
+Network connectivity lost,SendSNMP,SendSNMP,Major,"Network connectivity lost (non-normal), Network connectivity lost (ACK)"
+Network uplink redundancy degraded,SendSNMP,SendSNMP,Major,"Network uplink redundancy degraded (non-normal, Network uplink redundancy degraded (ACK)"
+Network uplink redundancy lost,SendSNMP,SendSNMP,Major,"Network uplink redundancy lost (non-normal), Network uplink redundancy lost (ACK) "
+Network uplink redundancy lost,SendEmail,SendEmail,Info,
+NSXT-SNMP-Traps,SendSNMP,SendSNMP,Major,"NSXT-SNMP-Traps (non-normal), NSXT-SNMP-Traps (ACK)"
+PostgreSQL Service Health Alarm,SendSNMP,SendSNMP,Info,
+PSC Service Health Alarm.,SendSNMP,SendSNMP,Info,
+RBD Health Alarm,SendSNMP,SendSNMP,Info,
+Service Control Agent Health Alarm,SendSNMP,SendSNMP,Info,
+SRM Consistency Group Violation,SendSNMP,SendSNMP,Info,
+Thin-provisioned volume capacity threshold exceeded,SendSNMP,SendSNMP,Major,"Thin-provisioned volume capacity threshold exceeded (non-normal), Thin-provisioned volume capacity threshold exceeded (ACK)"
+vCenter HA Service Health Alarm.,SendSNMP,SendSNMP,Info,
+vCenter Server Health Alarm,SendSNMP,SendSNMP,Major,
+Virtual machine Consolidation Needed status,SendSNMP,SendSNMP,Major,"Virtual machine Consolidation Needed status (non-normal), Virtual machine Consolidation Needed status (ACK)  "
+Virtual machine CPU usage,SendSNMP,SendSNMP,NA,"VmCPUUsageAlarm (minor), VmCPUUsageAlarm (ACK)"
+Virtual machine error,SendSNMP,SendSNMP,Major,"Virtual machine error (non-normal), Virtual machine error (ACK)"
+Virtual machine memory usage,SendSNMP,SendSNMP,NA,"Virtual machine memory usage (minor), Virtual machine memory usage (ACK)"
+VMKernel NIC not configured correctly,SendSNMP,SendSNMP,Major,VMKernel NIC not configured correctly (minor)
+VMware Directory Service Health Alarm,SendSNMP,SendSNMP,Info,
+VMware vCenter-Services Health Alarm,SendSNMP,SendSNMP,Info,
+vService Manager Health Alarm,SendSNMP,SendSNMP,Info,
+vSphere Distributed Switch MTU matched status,SendSNMP,SendSNMP,Major,vSphere Distributed Switch MTU matched status (minor)
+vSphere Distributed Switch MTU supported status,SendSNMP,SendSNMP,Major,vSphere Distributed Switch MTU supported status (minor)
+vSphere Distributed Switch teaming matched status,SendSNMP,SendEmail,Info,
+vSphere Distributed Switch VLAN trunked status,SendSNMP,SendSNMP,Major,vSphere Distributed Switch VLAN trunked status (minor) 
+vSphere HA failover in progress,SendSNMP,SendSNMP,Major,"vSphere HA failover in progress (non-normal), vSphere HA failover in progress (ACK)"
+vSphere HA host status,SendSNMP,SendSNMP,Major,"vSphere HA host status (minor), vSphere HA host status (ACK)"
+vSphere HA virtual machine failover failed,SendSNMP,SendSNMP,Info,vSphere HA virtual machine failover failed (minor)
+vSphere HA virtual machine monitoring action,SendSNMP,SendSNMP,NA,vSphere HA virtual machine monitoring action (minor)
+vSphere UI Health Alarm,SendSNMP,SendEmail,Info,
